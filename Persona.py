@@ -6,7 +6,6 @@ class Persona:
         self._altura: str = altura
         self._sexo: str = sexo
 
-    
     def getNombre(self):
         return self._nombre
 
@@ -27,6 +26,8 @@ class Persona:
 
     def setAltura(self, Altura):
         self._altura = Altura
-        
+
     def setSexo(self, Sexo):
         self._sexo = Sexo
+
+        
